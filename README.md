@@ -1,6 +1,6 @@
 # Advanced-CSS
 
-## A practice repository for Advanced CSS practice projects
+## A repository for Advanced CSS practice projects
 
 ## Table of contents
 
