@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    background: yellow;
+    background: limegreen;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(231, 217, 217);
     overflow: hidden;
@@ -14,7 +14,7 @@ body {
 }
 
 .text {
-    background-color: blue;
+    background-color: blueviolet;
     text-align: center;
     padding: 1em;
     margin: 16px;
