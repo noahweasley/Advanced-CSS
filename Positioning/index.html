@@ -8,7 +8,7 @@
     <title>Element positioning</title>
 </head>
 <style>
-    @import url(../style.css);
+    @import url(../style-1.css);
 
     body {
         background-color: navy;
@@ -36,12 +36,24 @@
         color: navy;
     }
 
+    .floating {
+        width: 40%;
+        height: 150px;
+        margin: 10px;
+        background-color: red;
+        position: sticky;
+        top: 0;
+        right: 20;
+        z-index: auto;
+    }
+
     .box-inner {
         position: absolute;
         top: 120%;
         width: 100%;
         height: 150px;
         background-color: peru;
+        z-index: 1;
     }
 
     .centered {
@@ -49,19 +61,27 @@
         justify-content: center;
         align-items: center;
     }
-
 </style>
 
 <body>
 
     <div class="container">
 
+        <div class="floating"></div>
         <div class="box"></div>
         <div class="box"></div>
         <div class="box">
             <div class="box-inner"></div>
         </div>
-
+        <div class="box">
+            <div class="box-inner"></div>
+        </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
     </div>
 
 </body>
