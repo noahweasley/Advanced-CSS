@@ -5,6 +5,7 @@
 ## Table of contents
 
 * Borders
+* Box-shadows
 * FlexBox
 * Follow
 * Grid-sytems
@@ -16,4 +17,5 @@
 * Responsive-deign
 * Shapes
 * Sibling-combinators
+* Transforms
 * Typography
