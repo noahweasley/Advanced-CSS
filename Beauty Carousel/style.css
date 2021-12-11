@@ -30,7 +30,7 @@ body {
     transform: translateX(var(--card-pos));
     gap: 3em;
     transition: 2s;
-    /* animation: 10s translate ease-in-out infinite alternate; */
+    animation: 10s translate ease-in-out alternate;
 }
 
 .card {
@@ -93,11 +93,11 @@ img {
 @keyframes translate {
 
     from {
-        transform: translateX(45%);
+        transform: translateX(-45%);
     }
 
     to {
-        transform: translateX(-45%);
+        transform: translateX(45%);
     }
 
 }
