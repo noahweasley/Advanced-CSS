@@ -83,7 +83,13 @@ img {
 
 .card:first-of-type {
     filter: contrast(85%);
+    overflow: hidden;
 }
+
+.card:first-of-type>img {
+    transform: scale(1.1, 1.1);
+}
+
 
 @keyframes translate {
 
