@@ -17,6 +17,7 @@
 - Implicit-grids
 - Iphone 13
 - Media-queries
+- O-C door
 - Positioning
 - Pseuado-element
 - Redmi 9A
